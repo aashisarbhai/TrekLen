@@ -31,7 +31,7 @@ function App() {
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/terms" element={<Terms />}></Route>
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />//
           <Route path="/privacy" element={<Privacy />}></Route>
         </Routes>
         <Chatbot />
